@@ -17,6 +17,8 @@ public class StandAloneTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://rahulshettyacademy.com/client");
+		
+		System.out.println("Helloooo");
 
 	}
 
